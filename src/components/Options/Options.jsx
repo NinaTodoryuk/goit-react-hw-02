@@ -1,7 +1,10 @@
 import css from "./Options.module.css"
-export default function Options({updateFeedback, totalFeedback, resetFeedback})
+export default function Options (){
+    updateFeedback,
+    totalFeedback,
+    resetFeedback}
 
-{return (
+{ return (
         <div className={css.container}>
             <button onClick={() => updateFeedback("good")} 
             className={css.btn}>Good</button>
