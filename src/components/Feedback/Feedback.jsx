@@ -1,6 +1,6 @@
 import css from "./Feedback.module.css"
 
-export default function Feedback({ feedback, totalFeedback, positiveFeedback})
+export default function Feedback({feedback, totalFeedback, positiveFeedback})
 {
   return (
     <div className={css.info}>
